@@ -1,0 +1,37 @@
+{
+  "name": "telepass",
+  "version": "0.1.0",
+  "description": "A lightweight TypeScript library for interacting with the Telegram Gateway API with built-in signature verification.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sadraliev/telepass"
+  },
+  "keywords": [
+    "telegram",
+    "gateway",
+    "api",
+    "verification",
+    "typescript",
+    "nodejs",
+    "telepass"
+  ],
+  "author": "Aibek Sadraliev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sadraliev/telepass/issues"
+  },
+  "homepage": "https://github.com/sadraliev/telepass#readme",
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
